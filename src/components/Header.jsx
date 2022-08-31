@@ -20,7 +20,7 @@ const Header = ({selection, setSelection}) => {
         </g>
       </svg>
       <div className={Number(selection)==0?"selected":""} >
-        Inbox 
+        All Calls 
       </div>
       <div className={Number(selection)==1?"selected":"" } >
         Archived
