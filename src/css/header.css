@@ -4,9 +4,21 @@ header {
   padding: 20px 0;
   text-align: center;
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
 }
 
 header svg {
-  display: block;
-  width: 100%; height: 100%;
+  height: 100%;
+}
+header div{
+  justify-content:space-around ;
+  margin-right: 10%;
+  padding-top: 3%;
+  font-size: medium;
+}
+
+header .selected{
+  border-bottom: 5px solid bisque;
 }

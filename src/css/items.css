@@ -1,0 +1,30 @@
+.expandable {
+  height: 70px;
+  padding-left: 5%;
+  padding-top: 2%;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  background-color: bisque;
+  margin: 1%;
+  margin-top: 4%;
+  border-radius: 5px;
+}
+
+.archive-text {
+  padding-top: "4%";
+  padding-left: "2%";
+}
+
+.archive-container {
+  display: "flex"
+}
+
+.expandable .time-text {
+  font-size: "12px";
+  border-left: "2px dotted gray";
+  height: "16px";
+  margin-top: "7%";
+  padding-left: "5%";
+  padding-right: "3%";
+}

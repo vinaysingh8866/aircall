@@ -1,4 +1,10 @@
-html, body, h1, h2, h3, ul, li {
+html,
+body,
+h1,
+h2,
+h3,
+ul,
+li {
   margin: 0;
   padding: 0;
   border: 0;
@@ -7,9 +13,34 @@ html, body, h1, h2, h3, ul, li {
 }
 
 body {
-  background: #233142;
+  background: white;
   font-family: helvetica, arial, sans-serif;
   font-size: 13px;
-  color: #333333;
+  color: black;
   line-height: 1;
+}
+
+/* Ripple effect */
+.ripple {
+  background-position: center;
+  transition: background 0.8s;
+  background-color: bisque;
+}
+
+.ripple:hover {
+  background: rgb(254, 200, 133) radial-gradient(circle, transparent 1%, rgb(254, 214, 164) 1%) center/15000%;
+}
+
+.ripple:active {
+  background-color: rgb(253, 195, 124);
+  background-size: 100%;
+  transition: background 0s;
+}
+.time-text{
+  font-size: "12px";
+  border-left: "2px dotted gray";
+  height: "16px";
+  margin-top: "7%";
+  padding-left: "5%";
+  padding-right: "3%";
 }
